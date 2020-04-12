@@ -1,0 +1,677 @@
+{
+  "$id": "1",
+  "Language": "English (Default)",
+  "Version": "1.0.9",
+  "Contributors": null,
+  "HomePage": null,
+  "Strings": [
+    {
+      "Key": "Menu_Tab_Gameplay",
+      "Value": "Jugabilidad"
+    },
+    {
+      "Key": "Menu_Opt_TrunBasedMode",
+      "Value": "Modo por Turnos"
+    },
+    {
+      "Key": "Menu_Btn_ResetSettings",
+      "Value": "Reiniciar ajustes"
+    },
+    {
+      "Key": "Menu_Sub_Rule",
+      "Value": "Regla"
+    },
+    {
+      "Key": "Menu_Opt_DistanceOfFiveFootStep",
+      "Value": "Modificador de distancia para el paso de 5 pies: {0:f2}x"
+    },
+    {
+      "Key": "Menu_Cmt_DistanceOfFiveFootStep",
+      "Value": " (Valores grandes harán a las unidades lentas incapaces de usar el paso de 5 pies)"
+    },
+    {
+      "Key": "Menu_Opt_SurpriseRound",
+      "Value": "Asalto sorpresa"
+    },
+    {
+      "Key": "Menu_Cmt_SurpriseRound",
+      "Value": " (Todas las unidades que no hayan sido vistas tendrán un asalto sorpresa antes de los normales)"
+    },
+    {
+      "Key": "Menu_Opt_PreventUnconsciousUnitLeavingCombat",
+      "Value": "No permitir que las unidades inconscientes abandonen el combate"
+    },
+    {
+      "Key": "Menu_Cmt_PreventUnconsciousUnitLeavingCombat",
+      "Value": " (Tan solo las unidades muertas abandonarán instantaneamente el combate)"
+    },
+    {
+      "Key": "Menu_Opt_FlankingCountAllNearbyOpponents",
+      "Value": "Flanking Count All Opponents Within Threatened Range"
+    },
+    {
+      "Key": "Menu_Cmt_FlankingCountAllNearbyOpponents",
+      "Value": " (Sin importar la actual acción activa de la unidad)"
+    },
+    {
+      "Key": "Menu_Opt_RerollPerceptionDiceAgainstStealthOncePerRound",
+      "Value": "Volver a hacer la tirada de percepción contra sigilo al comienzo de cada asalto"
+    },
+    {
+      "Key": "Menu_Cmt_RerollPerceptionDiceAgainstStealthOncePerRound",
+      "Value": " (En vez de tirar una vez por combate)"
+    },
+    {
+      "Key": "Menu_Sub_Pathfinding",
+      "Value": "Pathfinding"
+    },
+    {
+      "Key": "Menu_Opt_RadiusOfCollision",
+      "Value": "Radius Modifier Of Collision Detection: {0:f2}x"
+    },
+    {
+      "Key": "Menu_Cmt_RadiusOfCollision",
+      "Value": " (A modifier affecting pathfinding for all units, NOT AFFECT REACH)"
+    },
+    {
+      "Key": "Menu_Opt_MovingThroughFriendlyUnit",
+      "Value": "Movimiento a través de unidades aliadas"
+    },
+    {
+      "Key": "Menu_Cmt_MovingThroughFriendlyUnit",
+      "Value": " (Las unidades pueden atravesar a los aliados)"
+    },
+    {
+      "Key": "Menu_Opt_MovingThroughNonHostileUnit",
+      "Value": "Las unidades pueden atravesar NPCs no hostiles"
+    },
+    {
+      "Key": "Menu_Cmt_MovingThroughNonHostileUnit",
+      "Value": " (Las unidades pueden atravesar aliados y )"
+    },
+    {
+      "Key": "Menu_Opt_MovingThroughApplyToPlayer",
+      "Value": "... Aplicar al jugador"
+    },
+    {
+      "Key": "Menu_Opt_MovingThroughApplyToNeutralUnit",
+      "Value": "... Aplicar a las unidades neutrales"
+    },
+    {
+      "Key": "Menu_Opt_MovingThroughApplyToEnemy",
+      "Value": "... Aplicar a los enemigos"
+    },
+    {
+      "Key": "Menu_Opt_AvoidOverlapping",
+      "Value": "Intentar evitar la superposición al moverse"
+    },
+    {
+      "Key": "Menu_Cmt_AvoidOverlapping",
+      "Value": " (Evitar atravesar una unidad si van a quedarse una encima de otra)"
+    },
+    {
+      "Key": "Menu_Opt_AvoidOverlappingOnCharge",
+      "Value": "Intentar evitar la superposición al cargar"
+    },
+    {
+      "Key": "Menu_Cmt_AvoidOverlappingOnCharge",
+      "Value": " (Aplicar las reglas normales de pathfinding en vez de intentar evitar obstáculos)"
+    },
+    {
+      "Key": "Menu_Opt_DoNotMovingThroughNonAlly",
+      "Value": "NO moverse a través de unidades no aliadas"
+    },
+    {
+      "Key": "Menu_Cmt_DoNotMovingThroughNonAlly",
+      "Value": " (Disable the default \"soft obstacle\" effect on non-ally units)"
+    },
+    {
+      "Key": "Menu_Sub_Automation",
+      "Value": "Automatización"
+    },
+    {
+      "Key": "Menu_Opt_AutoTurnOffAIOnTurnStart",
+      "Value": "Desactivar la IA al comienzo del turno del jugador"
+    },
+    {
+      "Key": "Menu_Opt_AutoTurnOnAIOnCombatEnd",
+      "Value": "Activar la IA al finalizar un combate en modo por turnos"
+    },
+    {
+      "Key": "Menu_Opt_AutoSelectUnitOnTurnStart",
+      "Value": "Seleccionar la unidad actual al comienzo del turno del jugador"
+    },
+    {
+      "Key": "Menu_Opt_AutoSelectEntirePartyOnCombatEnd",
+      "Value": "Seleccionar la party completa al finalizar un combate en modo por turnos"
+    },
+    {
+      "Key": "Menu_Opt_AutoCancelActionsOnTurnStart",
+      "Value": "Cancelar acciones al comienzo de un turno del jugador"
+    },
+    {
+      "Key": "Menu_Opt_AutoCancelActionsOnCombatEnd",
+      "Value": "Cancelar acciones al finalizar un combate en modo por turnos"
+    },
+    {
+      "Key": "Menu_Opt_AutoCancelActionsOnFiveFootStepFinish",
+      "Value": "Cancelar acciones al terminar un movimiento de 5 pies con una unidad"
+    },
+    {
+      "Key": "Menu_Opt_AutoCancelActionsOnFirstMoveFinish",
+      "Value": "Auto Cancel Actions On Player's Unit Finished The First Move Action Through Moving"
+    },
+    {
+      "Key": "Menu_Opt_AutoEnableFiveFootStepOnTurnStart",
+      "Value": "Auto-activar el movimiento de 5 pies al comienzo del turno"
+    },
+    {
+      "Key": "Menu_Opt_AutoEndTurnWhenActionsAreUsedUp",
+      "Value": "Finalizar automáticamente el turno si se han usado todas las acciones"
+    },
+    {
+      "Key": "Menu_Opt_AutoEndTurnExceptSwiftAction",
+      "Value": "... Except Swift Action"
+    },
+    {
+      "Key": "Menu_Opt_AutoEndTurnWhenPlayerIdle",
+      "Value": "Auto End Turn If Player's Unit Is Idle"
+    },
+    {
+      "Key": "Menu_Cmt_AutoEndTurnWhenPlayerIdle",
+      "Value": " (Puede ser usado para el combate automático)"
+    },
+    {
+      "Key": "Menu_Tab_Interface",
+      "Value": "Interfaz"
+    },
+    {
+      "Key": "Menu_Opt_DoNotMarkInvisibleUnit",
+      "Value": "NO resaltar unidades invisibles"
+    },
+    {
+      "Key": "Menu_Cmt_DoNotMarkInvisibleUnit",
+      "Value": " (Desactivar el resaltado, cámara, indicadores...)"
+    },
+    {
+      "Key": "Menu_Opt_DoNotShowInvisibleUnitOnCombatTracker",
+      "Value": "NO mostrar unidades invisibles en el inspector de combate"
+    },
+    {
+      "Key": "Menu_Cmt_DoNotShowInvisibleUnitOnCombatTracker",
+      "Value": " (Display them as \"Unknown\" when they're acting)"
+    },
+    {
+      "Key": "Menu_Sub_CombatTracker",
+      "Value": "Inspector de combate"
+    },
+    {
+      "Key": "Menu_Opt_CombatTrackerScale",
+      "Value": "Escala: {0:f2}x"
+    },
+    {
+      "Key": "Menu_Opt_CombatTrackerWidth",
+      "Value": "Ancho: {0:d3}"
+    },
+    {
+      "Key": "Menu_Opt_CombatTrackerMaxUnits",
+      "Value": "Máximo de unidades listadas: {0:d2}"
+    },
+    {
+      "Key": "Menu_Opt_CameraScrollToUnitOnClickUI",
+      "Value": "Centrar la cámara al clickar el nombre de una unidad"
+    },
+    {
+      "Key": "Menu_Opt_SelectUnitOnClickUI",
+      "Value": "Seleccionar unidad al clicar"
+    },
+    {
+      "Key": "Menu_Opt_InspectOnRightClickUI",
+      "Value": "Inspeccionar unidad al hacer click derecho"
+    },
+    {
+      "Key": "Menu_Opt_ShowIsFlatFootedIconOnUI",
+      "Value": "Mostrar un icono de exclamación si la unidad ha perdido el modificador de ataque por destreza"
+    },
+    {
+      "Key": "Menu_Sub_View",
+      "Value": "Vista"
+    },
+    {
+      "Key": "Menu_Opt_HighlightCurrentUnit",
+      "Value": "Resaltar unidad actual"
+    },
+    {
+      "Key": "Menu_Opt_CameraScrollToCurrentUnit",
+      "Value": "Centrar cámara al comienzo del turno de cada unidad"
+    },
+    {
+      "Key": "Menu_Opt_CameraLockOnCurrentPlayerUnit",
+      "Value": "Bloquear la cámara a la unidad actual"
+    },
+    {
+      "Key": "Menu_Cmt_CameraLockOnCurrentPlayerUnit",
+      "Value": " (desbloquear al pausar la partida)"
+    },
+    {
+      "Key": "Menu_Opt_CameraLockOnCurrentNonPlayerUnit",
+      "Value": "Bloquear la cámara en la actual unidad no perteneciente al grupo"
+    },
+    {
+      "Key": "Menu_Sub_AttackIndicator",
+      "Value": "Indicador de ataque"
+    },
+    {
+      "Key": "Menu_Opt_ShowAttackIndicatorOfCurrentUnit",
+      "Value": "Mostrar el indicador de ataque en la unidad actual"
+    },
+    {
+      "Key": "Menu_Opt_ShowAttackIndicatorForPlayer",
+      "Value": "... para el jugador"
+    },
+    {
+      "Key": "Menu_Opt_ShowAttackIndicatorForNonPlayer",
+      "Value": "... para los NPCs"
+    },
+    {
+      "Key": "Menu_Opt_ShowAttackIndicatorOnHoverUI",
+      "Value": "Mostrar el indicador de ataque el pasar el cursor por encima"
+    },
+    {
+      "Key": "Menu_Opt_ShowAutoCastAbilityRange",
+      "Value": "Mostrar el rango de la habilidad en vez del rango de ataque cuando se está usando el auto-casteo"
+    },
+    {
+      "Key": "Menu_Opt_CheckForObstaclesOnTargeting",
+      "Value": "Comprobar los obstáculos al determinar si el objetivo está dentro de rango"
+    },
+    {
+      "Key": "Menu_Sub_MovementIndicator",
+      "Value": "Indicador de movimiento"
+    },
+    {
+      "Key": "Menu_Opt_ShowMovementIndicatorOfCurrentUnit",
+      "Value": "Mostrar el indicador de movimiento de la unidad actual"
+    },
+    {
+      "Key": "Menu_Opt_ShowMovementIndicatorForPlayer",
+      "Value": "... para el jugador"
+    },
+    {
+      "Key": "Menu_Opt_ShowMovementIndicatorForNonPlayer",
+      "Value": "... para los NPCs"
+    },
+    {
+      "Key": "Menu_Opt_ShowMovementIndicatorOnHoverUI",
+      "Value": "Mostrar el indicador de movimiento al pasar el cursor por encima"
+    },
+    {
+      "Key": "Menu_Tab_HotkeyAndTime",
+      "Value": "Teclas de acceso rápido y Tiempo"
+    },
+    {
+      "Key": "Menu_Sub_Hotkey",
+      "Value": "Teclas de acceso rápido"
+    },
+    {
+      "Key": "Menu_Btn_Set",
+      "Value": "Establecer"
+    },
+    {
+      "Key": "Menu_Btn_Clear",
+      "Value": "Limpiar"
+    },
+    {
+      "Key": "Menu_Txt_Duplicated",
+      "Value": "Duplicado!!"
+    },
+    {
+      "Key": "Menu_Opt_ToggleFiveFootStepOnRightClickGround",
+      "Value": "Conmutar el paso de 5 pies al hacer click derecho en el suelo"
+    },
+    {
+      "Key": "Menu_Sub_Time",
+      "Value": "Tiempo"
+    },
+    {
+      "Key": "Menu_Opt_TimeScaleBetweenTurns",
+      "Value": "Multiplicador de la escala temporal entre turnos: {0:f2}x"
+    },
+    {
+      "Key": "Menu_Opt_TimeScaleInPlayerTurn",
+      "Value": "Multiplicador de la escala temporal para unidades del jugador: {0:f2}x"
+    },
+    {
+      "Key": "Menu_Opt_TimeScaleInNonPlayerTurn",
+      "Value": "Multiplicador de la escala temporal para NPCs: {0:f2}x"
+    },
+    {
+      "Key": "Menu_Opt_TimeScaleInUnknownTurn",
+      "Value": "Multiplicador de la escala temporal para unidades desconocidas: {0:f2}x"
+    },
+    {
+      "Key": "Menu_Opt_MaxDelayBetweenIterativeAttacks",
+      "Value": "Máximo retardo entre ataques iterativos: {0:f2}s"
+    },
+    {
+      "Key": "Menu_Cmt_MaxDelayBetweenIterativeAttacks",
+      "Value": " (It's 6 second / attacks count by default)"
+    },
+    {
+      "Key": "Menu_Opt_CastingTimeOfFullRoundSpell",
+      "Value": "Multiplicador del tiempo de casteo para acciones de asalto completo: {0:f2}x"
+    },
+    {
+      "Key": "Menu_Cmt_CastingTimeOfFullRoundSpell",
+      "Value": " (La animación de casteo de un hachizo de asalto completo dura 6 segundos por defecto)"
+    },
+    {
+      "Key": "Menu_Opt_TimeToWaitForIdleAI",
+      "Value": "Time To Wait For Idle AI: {0:f2}s"
+    },
+    {
+      "Key": "Menu_Opt_TimeToWaitForEndingTurn",
+      "Value": "Tiempo de espera para terminar el turno: {0:f2}s"
+    },
+    {
+      "Key": "Menu_Sub_Pause",
+      "Value": "Pausa"
+    },
+    {
+      "Key": "Menu_Opt_DoNotPauseOnCombatStart",
+      "Value": "NO pausar automáticamente al comienzo de un combate por turnos"
+    },
+    {
+      "Key": "Menu_Cmt_DoNotPauseOnCombatStart",
+      "Value": " (Ignorar los ajustes del juego)"
+    },
+    {
+      "Key": "Menu_Opt_PauseOnPlayerTurnStart",
+      "Value": "Pausar al comienzo del turno del jugador"
+    },
+    {
+      "Key": "Menu_Opt_PauseOnPlayerTurnEnd",
+      "Value": "Pausar al final del turno del jugador"
+    },
+    {
+      "Key": "Menu_Opt_PauseOnNonPlayerTurnStart",
+      "Value": "Pausar al comienzo del turno de los NPCs"
+    },
+    {
+      "Key": "Menu_Opt_PauseOnNonPlayerTurnEnd",
+      "Value": "Pausar al final del turno de los NPCs"
+    },
+    {
+      "Key": "Menu_Opt_PauseOnPlayerFinishFiveFoot",
+      "Value": "Pausar al terminar un movimiento de 5 pies del jugador"
+    },
+    {
+      "Key": "Menu_Opt_PauseOnPlayerFinishFirstMove",
+      "Value": "Pausar al final de la primera fase de movimiento del jugador"
+    },
+    {
+      "Key": "Menu_Tab_Bugfix",
+      "Value": "Corrección de errores"
+    },
+    {
+      "Key": "Menu_Btn_TB",
+      "Value": "TB"
+    },
+    {
+      "Key": "Menu_Btn_RT",
+      "Value": "RT"
+    },
+    {
+      "Key": "Menu_Opt_FixNeverInCombatWithoutMC",
+      "Value": "Fix when the main character is not in your party, the game will never consider that player is in combat"
+    },
+    {
+      "Key": "Menu_Opt_FixCombatNotEndProperly",
+      "Value": "Arreglar que el combate no termine adecuadamente cuando se interrumpe por una escena"
+    },
+    {
+      "Key": "Menu_Opt_FixUnitNotLeaveCombatWhenNotInGame",
+      "Value": "Arreglar que las unidades no abandonan el combate si estan inactivas (arregla un bug en Call Forth Kanerah / Kalikke)"
+    },
+    {
+      "Key": "Menu_Opt_FixActionTypeOfActivatingItem",
+      "Value": "Fix the action type of activating an item storing a full-round spell (e.g. summon scrolls) (Full Round Action => Standard Action)"
+    },
+    {
+      "Key": "Menu_Opt_FixActionTypeOfBardicPerformance",
+      "Value": "Fix the action type of starting a Bardic Performance and the effect of Singing Steel"
+    },
+    {
+      "Key": "Menu_Opt_FixActionTypeOfSwappingWeapon",
+      "Value": "Fix the action type of swapping weapons (Standard Action => Move Action)"
+    },
+    {
+      "Key": "Menu_Opt_FixActionTypeOfCharge",
+      "Value": "Fix the action type of Charge (Standard Action => Full Round Action)"
+    },
+    {
+      "Key": "Menu_Opt_FixActionTypeOfOverrun",
+      "Value": "Fix the action type of Overrun (Standard Action => Full Round Action)"
+    },
+    {
+      "Key": "Menu_Opt_FixActionTypeOfVitalStrike",
+      "Value": "Fix the action type of Vital Strike (Full Round Action => Standard Action)"
+    },
+    {
+      "Key": "Menu_Opt_FixActionTypeOfAngelicForm",
+      "Value": "Fix the action type of Angelic Form (Standard Action => Move Action)"
+    },
+    {
+      "Key": "Menu_Opt_FixActionTypeOfKineticBlade",
+      "Value": "Fix activating Kinetic Blade is regarded as drawing weapon and consumes an additional standard action"
+    },
+    {
+      "Key": "Menu_Opt_FixKineticistWontStopPriorCommand",
+      "Value": "Fix Kineticist will not stop its previous action if you command it to attack with Kinetic Blade before combat"
+    },
+    {
+      "Key": "Menu_Opt_FixSpellstrikeOnNeutralUnit",
+      "Value": "Fix Spellstrike does not take effect when attacking a neutral target"
+    },
+    {
+      "Key": "Menu_Opt_FixSpellstrikeWithMetamagicReach",
+      "Value": "Fix Spellstrike does not take effect when using Metamagic (Reach) on a touch spell"
+    },
+    {
+      "Key": "Menu_Opt_FixSpellstrikeWithNaturalWeapon",
+      "Value": "Fix Spellstrike will apply a touch effect twice when hitting target with a natural weapon (or a unarmed attack)"
+    },
+    {
+      "Key": "Menu_Opt_FixDamageBonusOfBlastRune",
+      "Value": "Fix the damage bonus of Blast Rune isn't increased with class level (it's the first ability of Rune Domain)"
+    },
+    {
+      "Key": "Menu_Opt_FixOnePlusDiv2ToDiv2",
+      "Value": "Fix the damage bonus of some abilities (level / 2 + 1 => level / 2) (Blast Rune, Moonfire)"
+    },
+    {
+      "Key": "Menu_Opt_FixFxOfShadowEvocationSirocco",
+      "Value": "Fix the Fx effect of Shadow Evocation (Sirocco) is missing (use normal Sirocco to replace it)"
+    },
+    {
+      "Key": "Menu_Opt_FixAbilityNotAutoDeactivateIfCombatEnded",
+      "Value": "Fix some abilities will not be auto deactivated after combat (Inspire Greatness, Inspire Heroics)"
+    },
+    {
+      "Key": "Menu_Opt_FixBlindFightDistance",
+      "Value": "Fix Blind-Fight needs a extreme close distance to prevent from losing AC instead of melee distance"
+    },
+    {
+      "Key": "Menu_Opt_FixDweomerLeap",
+      "Value": "Fix Dweomer Leap can be triggered by ally and always consumes no action (it should consume a swift action)"
+    },
+    {
+      "Key": "Menu_Opt_FixConfusedUnitCanAttackDeadUnit",
+      "Value": "Fix sometimes a confused unit can act normally because it tried to attack an unattackable dead unit"
+    },
+    {
+      "Key": "Menu_Opt_FixAcrobaticsMobility",
+      "Value": "Fix you can use Acrobatics (Mobility) to avoid AoO even if the AoO is provoked due to reasons other than movement"
+    },
+    {
+      "Key": "Menu_Opt_FixCanMakeAttackOfOpportunityToUnmovedTarget",
+      "Value": "Fix you can make an AoO to an unmoved unit as if it's leaving the threatened range (when switching from reach weapon)"
+    },
+    {
+      "Key": "Menu_Opt_FixHasMotionThisTick",
+      "Value": "Fix sometimes the game does not regard a unit that is forced to move as a unit that is moving (cause AoO behavior inconsistent)"
+    },
+    {
+      "Key": "Menu_Opt_FixAbilityCircleRadius",
+      "Value": "Fix the visual circle of certain abilities is inconsistent with the real range"
+    },
+    {
+      "Key": "Menu_Opt_FixAbilityCircleNotAppear",
+      "Value": "Fix the ability circle does not appear properly when first time selecting an ability of any unit (using a hotkey)"
+    },
+    {
+      "Key": "Menu_Opt_FixAbilityCanTargetUntargetableUnit",
+      "Value": "Fix you can target untargetable units using abilities"
+    },
+    {
+      "Key": "Menu_Opt_FixAbilityCanTargetDeadUnit",
+      "Value": "Fix you can target dead units using abilities that cannot be cast on dead targets"
+    },
+    {
+      "Key": "Menu_Opt_FixNeutralUnitCanAttackAlly",
+      "Value": "Fix certain neutral units can attack their ally (e.g. Techno League)"
+    },
+    {
+      "Key": "Menu_Opt_FixInspectingTriggerAuraEffect",
+      "Value": "Fix certain aura effect will be triggered repeatedly when you inspect its owner (e.g. the aura of Tendriculos)"
+    },
+    {
+      "Key": "Menu_Opt_FixInspectingCauseError",
+      "Value": "Fix inspecting enemies can cause errors in certain condition (e.g. when using Blindsense to against enemies who can ambush)"
+    },
+    {
+      "Key": "Menu_Tab_Language",
+      "Value": "Idioma"
+    },
+    {
+      "Key": "Menu_Sub_Current",
+      "Value": "Actual"
+    },
+    {
+      "Key": "Menu_Txt_Language",
+      "Value": "Idioma: {0}"
+    },
+    {
+      "Key": "Menu_Txt_Version",
+      "Value": "Versión: {0}"
+    },
+    {
+      "Key": "Menu_Txt_Contributors",
+      "Value": "Contribuidores: {0}"
+    },
+    {
+      "Key": "Menu_Txt_HomePage",
+      "Value": "Página de inicio:"
+    },
+    {
+      "Key": "Menu_Btn_Export",
+      "Value": "Exportar: {0}"
+    },
+    {
+      "Key": "Menu_Btn_SortAndExport",
+      "Value": "Ordenar y exportar: {0}"
+    },
+    {
+      "Key": "Menu_Cmt_SortAndExport",
+      "Value": " (AVISO: borrará todas las entradas vacías también)"
+    },
+    {
+      "Key": "Menu_Txt_FaildToExport",
+      "Value": "Fallo al exportar: {0}"
+    },
+    {
+      "Key": "Menu_Sub_Import",
+      "Value": "Importar"
+    },
+    {
+      "Key": "Menu_Btn_RefreshFileList",
+      "Value": "Actualizar la lista de archivos"
+    },
+    {
+      "Key": "Menu_Btn_DefaultLanguage",
+      "Value": "Idioma predeterminado"
+    },
+    {
+      "Key": "Menu_Txt_FaildToImport",
+      "Value": "Fallo al importar: {0}"
+    },
+    {
+      "Key": "Hotkey_Toggle_TurnBasedMode",
+      "Value": "Conmutar el modo por turnos"
+    },
+    {
+      "Key": "Hotkey_Toggle_AttackIndicator",
+      "Value": "Conmutar los indicadores de ataque"
+    },
+    {
+      "Key": "Hotkey_Toggle_MovementIndicator",
+      "Value": "Conmutar los indicadores de ataque"
+    },
+    {
+      "Key": "Hotkey_Button_EndTurn",
+      "Value": "Botón: Terminar turno"
+    },
+    {
+      "Key": "Hotkey_Button_Delay",
+      "Value": "Botón: Retrasar"
+    },
+    {
+      "Key": "Hotkey_Button_FiveFootStep",
+      "Value": "Botón: Movimiento de 5 pies"
+    },
+    {
+      "Key": "Hotkey_Button_FullAttack",
+      "Value": "Botón: Ataque completo"
+    },
+    {
+      "Key": "UI_Btn_EndTurn",
+      "Value": "Terminar turno"
+    },
+    {
+      "Key": "UI_Btn_Delay",
+      "Value": "Retrasar"
+    },
+    {
+      "Key": "UI_Btn_FiveFootStep",
+      "Value": "<size=-1>Movimiento de 5 pies</size>"
+    },
+    {
+      "Key": "UI_Btn_FullAttack",
+      "Value": "<size=-4>Ataque completo</size>"
+    },
+    {
+      "Key": "UI_Txt_Unknown",
+      "Value": "Desconocido"
+    },
+    {
+      "Key": "UI_Txt_Error",
+      "Value": "Error: Mod de combate por turnos"
+    },
+    {
+      "Key": "UI_Txt_TurnBasedMode",
+      "Value": "Modo: Combate por turnos"
+    },
+    {
+      "Key": "UI_Txt_RealTimeMode",
+      "Value": "Modo: Tiempo real con pausa"
+    },
+    {
+      "Key": "UI_Log_RoundStarted",
+      "Value": "Asalto {0} iniciada."
+    },
+    {
+      "Key": "UI_Log_SurpriseRoundStarted",
+      "Value": "Asalto sorpresa iniciado."
+    }
+  ]
+}
